@@ -59,8 +59,8 @@ int main(){
     Solution obj ;
     obj.flatten(root);
 
-    cout<<"Flattent Linked list: ";
+    cout<<"Flatten Linked list: ";
     printList(root);
-    
+
     return 0;
 }
