@@ -100,7 +100,7 @@ int main (){
     if(ans == -1)
         cout<<"Invalid value of k";
     else
-        cout<< k <<" th smallest element s :"<< ans;
+        cout<< k <<" th smallest element  :"<< ans;
 
     return 0;
 
