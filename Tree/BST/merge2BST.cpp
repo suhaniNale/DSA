@@ -123,7 +123,7 @@ int main() {
     cout<<"\n Enter Elements for BST 2: ";
     takeInput(root2);
 
-    cout<<"\n Inorder if BST 1: ";
+    cout<<"\n Inorder of BST 1: ";
     vector<int> arr1;
     inorder(root1, arr1);
 
