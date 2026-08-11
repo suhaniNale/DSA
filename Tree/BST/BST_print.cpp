@@ -77,8 +77,7 @@ void levelorder(Node * root){
             if(temp->right){
                 q.push(temp->right);
             }
-        }
-        
+        }    
     }
 }
 Node* insertToBST(Node* &root, int d){
@@ -99,6 +98,7 @@ Node* insertToBST(Node* &root, int d){
 
     return root;
 }
+
 //minimum value
 Node* minVal(Node* &root)
 {
