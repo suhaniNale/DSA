@@ -40,6 +40,7 @@ int main() {
     cout<<"Minimum Cost :" <<ans <<endl;
 
     return 0;
+    
 }
 
 
