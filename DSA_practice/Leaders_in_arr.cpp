@@ -5,6 +5,24 @@
 
 using namespace std;
 
+
+// vector<int> findLeadersBruteForce(vector<int>& elements, int n) {
+//     vector<int> ans;
+//     for (int i = 0; i < n; i++) {
+//         bool isLeader = true;
+//         for (int j = i + 1; j < n; j++) {
+//             if (elements[j] >= elements[i]) {
+//                 isLeader = false;
+//                 break;
+//             }
+//         }
+//         if (isLeader) {
+//             ans.push_back(elements[i]);
+//         }
+//     }
+//     return ans;
+// }
+
 vector<int> findLeaders(vector<int> &arr, int n){
 
     vector<int> ans;
