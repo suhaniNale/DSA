@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 
 using namespace std;
-
+//2 ptr approach  -> TC=O(n)  and SC=O(1)
 bool isPalindrome(string s){
      
     int left = 0;
@@ -15,7 +16,7 @@ bool isPalindrome(string s){
             left++;
             continue;
         }
-        if(s[right] = ' '){
+        if(s[right] == ' '){
             right--;
             continue;
         }
